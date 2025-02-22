@@ -1,0 +1,97 @@
+@import '../../../styles/variables';
+%buttonPrimaryProps {
+  border: none;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: unset;
+  transition: 0.3s ease;
+  
+}
+
+%buttonSecondaryProps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}
+
+@mixin buttonTertiaryProps($width: 151px) {
+  border: none;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  padding: 15px 16px;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: unset;
+  transition: 0.3s ease;
+}
+
+.primary {
+  @extend %buttonPrimaryProps;
+  background-color: $color-primary;
+  color: $color-secondary;
+  width: 160px;
+  height: 40px;
+
+  &:hover {
+    box-shadow: 0px 0px 15px $color-primary, inset 0px 0px 10px rgb(255, 176, 176);
+    cursor: pointer;
+  }
+  &:active {
+    // background-color: $color-red-wine-light;
+  }
+}
+
+.secondary {
+  @extend %buttonSecondaryProps;
+  background: transparent;
+  border: none;
+  color: $color-white;
+  width: 160px;
+  height: 40px;
+
+  &:hover {
+    box-shadow: 0px 0px 15px $color-red-wine-light;
+  }
+}
+
+.tertiary {
+  @include buttonTertiaryProps(151px);
+  background-color: $color-secondary; 
+  width: 160px;
+  height: 40px;
+  color: white;
+  transition: 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 0px 15px #83002F, inset 0px 0px 10px rgba(189, 189, 255, 0.6);
+    cursor: pointer;
+  }
+}
+
+// .disabled-primary, .disabled-secondary, .disabled-tertiary {
+//   opacity: 40%;
+//   cursor: default !important;
+
+//   &:hover {
+//     box-shadow: unset !important;
+//     cursor: default !important;
+//   }
+// }

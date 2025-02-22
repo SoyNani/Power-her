@@ -1,0 +1,46 @@
+@import '../../../styles/styles.scss';
+
+.problem{
+    height: 50vh;
+    background: $color-secondary;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    &__container{
+        @include center-content-laptop;
+        display: flex;
+
+        @include desktop{
+            @include center-content-desktop
+        }
+    }
+
+    &__texto{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        padding-right: 30px;
+    }
+
+    &__img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    @include laptop {
+        &__img{
+            width: 30vw;
+            height: auto;
+        }
+    }
+    
+    // @include desktop {
+    //     max-width: 1400px;
+    //     margin: 0 auto;
+    // }
+}

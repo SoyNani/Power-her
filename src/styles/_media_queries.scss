@@ -1,0 +1,67 @@
+//   Tamaños máximos para centrar el contenido
+$max-width-laptop: 80vw; // Ajustable según necesidades
+$center-content-desktop: 70vw;
+
+//   Mixin para centrar contenido
+@mixin center-content-laptop {
+  max-width: $max-width-laptop;
+  margin: 0 auto;
+  padding: 0px; 
+}
+
+@mixin center-content-desktop {
+  max-width: $center-content-desktop;
+  margin: 0 auto;
+  padding: 0px; 
+}
+
+//   Media Queries
+
+@mixin mobile {
+  @media only screen and (min-width: 320px) {
+    @content;
+  }
+}
+
+@mixin wideMobile {
+  @media only screen and (min-width: 375px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 744px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media only screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin laptop14 {
+  @media only screen and (min-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin laptop-height {
+  @media only screen and (max-height: 600px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin auxiliaryDesktop {
+  @media only screen and (min-width: 1920px) {
+    @content;
+  }
+}
+

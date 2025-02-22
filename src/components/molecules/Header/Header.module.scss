@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.header{
+    background: $color-secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    
+    &__logo{
+        color: $color-white;
+        margin-left: 30px; 
+    }
+    &__nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px; 
+        gap: 20px;
+    }
+}

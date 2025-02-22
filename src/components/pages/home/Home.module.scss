@@ -1,0 +1,79 @@
+@import '../../../styles/styles.scss';
+
+.fondo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+    overflow: hidden;
+    position: relative;
+
+    &__container{
+        @include center-content-laptop;
+        position: relative;
+        z-index: 2;
+        margin: 10vh auto 0px auto;
+
+        @include desktop{
+            @include center-content-desktop
+        }
+    }
+
+    &__title{
+        font-size: 32px;
+        font-weight: 400;
+        text-align: start;
+    }
+
+    &__span{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    
+
+    &__subtitle{
+        font-size: 30px;
+        font-weight: 400;
+        text-align: start;
+        padding: 30px 0px 30px 0px;
+        @include desktop{
+            padding-bottom: 50px;
+        }
+        
+    }
+
+    @include laptop {
+        .fondo {
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+            width: 100%;
+        }
+    }
+
+    @include desktop {
+        .fondo {
+            bottom: -10px; // Baja la imagen de fondo
+        }
+        
+    }
+}
+
+

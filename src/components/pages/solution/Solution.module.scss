@@ -1,0 +1,42 @@
+@import '../../../styles/styles.scss';
+
+.solution{
+    background-color: $color-red-wine-light;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    &__width{
+        display: flex;
+        flex-direction: column;
+        @include center-content-laptop;
+
+        @include desktop{
+            @include center-content-desktop;
+        }
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-white;
+        gap: 5px;
+        font-size: 32px;
+        font-weight: 400;
+        padding: 0px 0px 25px 0px;
+    }
+
+    &__titleDos{
+        font-weight: 600;
+    }
+
+    &__container{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+}

@@ -1,7 +1,6 @@
 import styles from './Plans.module.scss';
 import { Descargar } from '../../../utils/VariableText';
 import AButtons from '../../atoms/AButtons/AButtons';
-import { useState } from 'react'
 
 const Plans: React.FC =()=> {
     return(

@@ -28,5 +28,5 @@ Este desarrollo fue solicitado como **parte de un proceso de prototipado**, con 
 
 ## 📷 Vista previa desde el portátil o desktop
 
-> Enlace de acceso.
+> https://power-her-girls.vercel.app/
 

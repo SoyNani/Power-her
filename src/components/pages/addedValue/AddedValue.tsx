@@ -15,22 +15,14 @@ const AddedValue: React.FC =() => {
             <div className={styles.value__context}>
                 <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna1.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
                 <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna2.svg" alt="Imagen de una chica joven con vestido rosa" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna1.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna2.svg" alt="Imagen de una chica joven con vestido rosa" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna1.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna2.svg" alt="Imagen de una chica joven con vestido rosa" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna1.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna2.svg" alt="Imagen de una chica joven con vestido rosa" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna1.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
-                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna2.svg" alt="Imagen de una chica joven con vestido rosa" />
-                {/* <img className={styles.value__img} src="" alt="Imagen de tres jóvenes en la naturaleza" />
-                <img className={styles.value__img} src="" alt="Imagen de una mujer tomándose una selfie" />
-                <img className={styles.value__img} src="" alt="Imagen de un outfit de mujer" />
-                <img className={styles.value__img} src="" alt="Imagen de una mujer en una laguna" />
-                <img className={styles.value__img} src="" alt="Imagen de un espejo" />
-                <img className={styles.value__img} src="" alt="Imagen de una mujer promocionando un producto" />
-                <img className={styles.value__img} src="" alt="Imagen de los pies de una mujer con tacones" />
-                <img className={styles.value__img} src="" alt="Imagen de platos de comida" /> */}
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna3.svg" alt="Imagen de tres jóvenes en la naturaleza" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna4.svg" alt="Imagen de una mujer tomándose una selfie" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila1-columna5.svg" alt="Imagen de un outfit de mujer" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila2-columna1.svg" alt="Imagen de una mujer en una laguna" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila2-columna2.svg" alt="Imagen de una mujer haciéndose una selfie frente al espejo" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila2-columna3.svg" alt="Imagen de una mujer promocionando un producto" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila2-columna4.svg" alt="Imagen de los pies de una mujer con tacones" />
+                <img className={styles.value__img} src="https://project-power-her-images.s3.us-east-1.amazonaws.com/fila2-columna5.svg" alt="Imagen de platos de comida" />
             </div>
         </section>
         <section className={styles.icon}>

@@ -1,8 +1,8 @@
 declare const classNames: {
-  readonly planes: "planes";
+  readonly cont: "cont";
   readonly planes__p: "planes__p";
-  readonly planes__primero: "planes__primero";
   readonly contenedor: "contenedor";
+  readonly planes__primero: "planes__primero";
   readonly contenedor__ofertas: "contenedor__ofertas";
   readonly descargar: "descargar";
   readonly descargar__contenido: "descargar__contenido";

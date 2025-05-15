@@ -15,30 +15,50 @@
 }
 
 .home{
+    width: 100vw;
     height: 100vh;
+    background-image: $background-image-home;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center; 
     overflow: hidden;
-    position: relative;
 
     &__container{
-        @include center-content-laptop;
+       
         position: relative;
         z-index: 2;
-        margin: 10vh auto 0px auto;
+        margin: auto auto;
+        @include center-content($max-width-mobile);
 
-        @include desktop{
-            @include center-content-desktop
+        @include tablet {
+            @include center-content($max-width-tablet)
         }
+
+        @include laptop {
+            @include center-content($max-width-laptop);
+        }
+
+        @include desktop {
+            @include center-content($max-width-desktop);
+            max-width: $max-width-large-desktop;
+        }
+    }
+
+    &__container p{
+        font-size: 32px;
+        font-weight: 400;
+        text-align: start;
     }
 
     &__title{
         font-size: 32px;
         font-weight: 400;
         text-align: start;
+        padding-bottom: 30px;
     }
 
     &__span{
@@ -52,11 +72,10 @@
         font-size: 30px;
         font-weight: 400;
         text-align: start;
-        padding: 30px 0px 30px 0px;
-        @include desktop{
-            padding-bottom: 50px;
-        }
-        
+    }
+
+    .button{
+        margin-top: 40px;
     }
 
     @include laptop {
@@ -70,10 +89,11 @@
 
     @include desktop {
         .fondo {
-            bottom: -10px; // Baja la imagen de fondo
+            bottom: -10px; 
         }
         
     }
+
 }
 
 

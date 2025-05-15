@@ -26,4 +26,21 @@
         width: 350px;
 
     }
+    @include center-content($max-width-mobile);
+
+    @include tablet {
+        @include center-content($max-width-tablet);
+        width: 80vw;
+        padding: 35px;
+        height: 200px
+    }
+
+    @include laptop {
+        @include center-content($max-width-laptop);
+    }
+
+    @include desktop {
+        @include center-content($max-width-desktop);
+        max-width: $max-width-large-desktop;
+    }
 }

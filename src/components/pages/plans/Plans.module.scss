@@ -1,18 +1,35 @@
 @import '../../../styles/styles.scss';
 
-.planes{
+.cont{
     height: 60vh;
     background-color: $vino-Tinto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     
+}
+.planes{
     &__p{
         width: 55vw;
         text-align: center;
         color: $color-white;
         font-size: 28px;
+
+        @include laptop {
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        @include desktop {
+            padding: 20px;
+            font-size: 28px;
+        }
+
+        @include tablet {
+            width: 80vw;
+        }
     }
 
     &__p h3{
@@ -22,6 +39,9 @@
     &__primero{
         font-weight: 600 !important;
     }
+
+    
+    
 }
 
 .contenedor{
@@ -45,6 +65,19 @@
         width: 61px;
         height: 61px;
         padding-bottom: 14px;
+    }
+
+    @include laptop {
+        padding: 20px;
+        
+    }
+
+    @include desktop {
+        padding-top: 70px;
+    }
+
+    @include tablet {
+        width: 80vw;
     }
 }
 
@@ -74,3 +107,4 @@
         padding-bottom: 50px;
     }
 }
+

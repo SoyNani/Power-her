@@ -8,7 +8,7 @@ const Solution: React.FC = () => {
         <>
             <section className={styles.solution}>
                 <div className={styles.solution__width}>
-                    <h3 className={styles.solution__title}> {SECCION_SOLUTION_TEST} <span className={styles.solution__titleDos}> {SECCION_SOLUTION_TEST2}</span> </h3>
+                    <h3 className={styles.solution__title}> {SECCION_SOLUTION_TEST}<span className={styles.solution__titleDos}>{SECCION_SOLUTION_TEST2}</span> </h3>
                     <div className={styles.solution__container}>
                         <Card
                             imageSrc='https://project-power-her-images.s3.us-east-1.amazonaws.com/Inspiration.svg'

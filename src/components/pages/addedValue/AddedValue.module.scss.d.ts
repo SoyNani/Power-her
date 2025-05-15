@@ -3,7 +3,7 @@ declare const classNames: {
   readonly value__title: "value__title";
   readonly value__context: "value__context";
   readonly value__img: "value__img";
-  readonly icon: "icon";
   readonly texto: "texto";
+  readonly icon: "icon";
 };
 export = classNames;

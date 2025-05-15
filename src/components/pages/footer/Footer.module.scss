@@ -1,12 +1,16 @@
 @import '../../../styles/styles.scss';
 
-.footer{
+.footerPrincipal{
     background-color: $color-secondary;
     height: 60vh;
     display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-grow: 1;
 
     &__container{
         width: 80vw;
@@ -34,7 +38,6 @@
     h2{
         font-weight: 500;
         font-size: 16px;
-        padding-bottom: 22px;
     }
 
     li{
@@ -50,5 +53,19 @@
     &__figure img{
         width: 24px;
         height: 24px;
+        margin-right: 10px;
+    }
+
+    &__bottom{
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-top: auto;
+        padding-bottom: 20px;
+    }
+
+    &__bottom span{
+        white-space: pre;
     }
 }

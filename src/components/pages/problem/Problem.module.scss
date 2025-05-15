@@ -10,26 +10,51 @@
     flex-direction: row;
     
     &__container{
-        @include center-content-laptop;
         display: flex;
 
-        @include desktop{
-            @include center-content-desktop
+        @include center-content($max-width-mobile);
+
+        @include tablet {
+            @include center-content($max-width-tablet);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+
+        @include laptop {
+            @include center-content($max-width-laptop);
+        }
+
+        @include desktop {
+            @include center-content($max-width-desktop);
+            max-width: $max-width-large-desktop;
         }
     }
 
     &__texto{
-        font-size: 16px;
+        font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: start;
         padding-right: 30px;
+
+        @include tablet{
+            padding: 20px 0px;
+            line-height: 28px;
+        }
     }
 
     &__img{
         max-width: 100%;
         height: auto;
+        object-fit: cover;
+
+        @include tablet {
+            max-width: 450px;
+            height: auto;
+        }
     }
 
     @include laptop {

@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Landing Page - PowerHer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **prototipo** que tiene como objetivo implementar en una aplicación web el diseño previamente realizado en Figma. La aplicación fue desarrollada utilizando **React con TypeScript**, y las imágenes utilizadas están almacenadas y gestionadas desde un **bucket de Amazon S3 (AWS)**.
 
-Currently, two official plugins are available:
+## ✨ Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React con Vite**
+- **TypeScript**
+- **Preprocesador de CSS**
+- **Amazon S3**
+- **Figma**
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Características principales
 
-- Configure the top-level `parserOptions` property like this:
+- Implementación del diseño proporcionado en Figma.
+- Carga dinámica de imágenes desde un bucket S3 de AWS.
+- Estructura modular y mantenible con componentes reutilizables.
+- Buenas prácticas de desarrollo con tipado fuerte gracias a TypeScript.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🖼️ Almacenamiento de Imágenes
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Las imágenes utilizadas en esta landing page no están incluidas directamente en el repositorio. En su lugar, se cargan desde un **bucket privado de Amazon S3**, lo que permite una mayor flexibilidad y rendimiento en producción.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 💡 Objetivo del prototipo
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Este desarrollo fue solicitado como **parte de un proceso de prototipado**, con el propósito de visualizar el diseño de una landing page funcional a partir de un mockup de Figma. El foco principal fue **traducir fielmente la interfaz visual en una aplicación web funcional**, utilizando tecnologías modernas y buenas prácticas de desarrollo frontend.
+
+## 📷 Vista previa
+
+> Enlace de acceso.
+

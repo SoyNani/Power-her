@@ -1,8 +1,8 @@
 export const HOME_SECTION_SUBTITLE = "En este espacio, tu voz tiene el poder de ser el catalizador del cambio. Cada historia es única, valiosa y merece ser contada. ¡Anímate a publicar y deja que tu luz brille en nuestra comunidad!"
 export const PROBLEM_TEST = "En el mundo digital actual, las mujeres anhelan un espacio seguro y acogedor donde puedan compartir sus experiencias, recibir consejos valiosos y conectarse con otras personas que comprendan sus desafíos. La falta de plataformas auténticas y centradas en la comunidad deja un vacío para aquellas que buscan una red de apoyo real y significativa.";
 
-export const SECCION_SOLUTION_TEST = "Descubre cómo nuestra aplicación "
-export const SECCION_SOLUTION_TEST2 = " transforma experiencias"
+export const SECCION_SOLUTION_TEST = "Descubre cómo nuestra aplicación"
+export const SECCION_SOLUTION_TEST2 = "transforma experiencias"
 
 export const Options = {
     INSPIRATION: "Inspiración diaria",

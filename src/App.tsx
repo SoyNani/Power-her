@@ -1,4 +1,3 @@
-import AButtons from './components/atoms/AButtons/AButtons'
 import Header from './components/molecules/Header/Header'
 import Home from './components/pages/home/Home'
 import Problem from './components/pages/problem/Problem'

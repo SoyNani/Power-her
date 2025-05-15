@@ -1,5 +1,5 @@
 import React from "react";
-import './AButtons.module.scss';
+import styles from './AButtons.module.scss';
 
 type ButtonProps = {
     label: string;
@@ -12,7 +12,7 @@ const AButtons: React.FC<ButtonProps> = ({label, onClick, variant = "primary", d
     return(
         <button
             onClick={onClick}
-            className={`button ${variant} ${disabled ? "disabled" : ""}`}
+            className={`${styles[variant]} ${disabled ? "disabled" : ""}`}
             disabled={disabled}
         >
             {label}

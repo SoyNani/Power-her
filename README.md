@@ -20,13 +20,13 @@ Este proyecto es un **prototipo** que tiene como objetivo implementar en una apl
 
 ## 🖼️ Almacenamiento de Imágenes
 
-Las imágenes utilizadas en esta landing page no están incluidas directamente en el repositorio. En su lugar, se cargan desde un **bucket privado de Amazon S3**, lo que permite una mayor flexibilidad y rendimiento en producción.
+Las imágenes utilizadas en esta landing page no están incluidas directamente en el repositorio. En su lugar, se cargan desde un **bucket de Amazon S3**, lo que permite una mayor flexibilidad y rendimiento en producción.
 
 ## 💡 Objetivo del prototipo
 
 Este desarrollo fue solicitado como **parte de un proceso de prototipado**, con el propósito de visualizar el diseño de una landing page funcional a partir de un mockup de Figma. El foco principal fue **traducir fielmente la interfaz visual en una aplicación web funcional**, utilizando tecnologías modernas y buenas prácticas de desarrollo frontend.
 
-## 📷 Vista previa
+## 📷 Vista previa portátil o desktop
 
 > Enlace de acceso.
 
